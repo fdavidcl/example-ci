@@ -11,6 +11,7 @@ end
 # Tests for Square class
 
 sq = Geometry::Square.new 1
+sq_103 = Geometry::Square.new 103
 
 # Perimeter should be 4 units
 expect 4 do
@@ -20,6 +21,16 @@ end
 # Area should be 1 square unit
 expect 1 do
   sq.area
+end
+
+# Perimeter should be 412 units
+expect 412 do
+  sq_103.perimeter
+end
+
+# Area should be 10609 square unit
+expect 10609 do
+  sq_103.area
 end
 
 #########################################
