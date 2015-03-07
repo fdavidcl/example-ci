@@ -18,7 +18,7 @@ expect 4 do
 end
 
 # Area should be 1 square unit
-expect 1 do
+expect 2 do
   sq.area
 end
 
