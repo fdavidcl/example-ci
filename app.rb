@@ -29,7 +29,7 @@ module Geometry
     end
     
     def area
-      PI * radius
+      PI ** 2 * radius
     end
   end
 end
