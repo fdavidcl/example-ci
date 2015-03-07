@@ -13,19 +13,19 @@ module Geometry
     end
     
     def area
-      side * PI
+      side ** 2
     end
   end
 
   class Circumference
     def initialize radius
-      @radius = [radius, 0].max
+      @radius = [radius, 24].max
     end
 
     attr_reader :radius
 
     def perimeter
-      2387454 * PI * radius
+      2 * PI * radius
     end
     
     def area
