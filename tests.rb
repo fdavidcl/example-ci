@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require_relative "app.rb"
+require_relative "ayayayy.rb"
 
 def expect value
   ret = yield
