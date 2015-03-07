@@ -1,5 +1,5 @@
 # example-ci
-![Travis badge](https://travis-ci.org/fdavidcl/example-ci.svg?branch=master)
+![Travis badge](https://travis-ci.org/fdavidcl/example-ci.svg)
 
 An example repo in Ruby for continuous integration with Travis CI
 
@@ -16,11 +16,11 @@ familiar with the concept of *build*.
 
 When you're developing a code-based project, making a build means
 the generation of an executable or other form of prepared package
-out of your code, including any tests that may be used to check
+out of your code, including any tests that may be used to check 
 its proper operation.
 
 Thus, a build is *successful* if an executable can be generated
-and it passes all the tests. Otherwise, we say that the build
+and it passes all the tests. Otherwise, we say that the build 
 *failed*.
 
 Usually the final form of the program (your executable or package)
@@ -45,16 +45,16 @@ types of automation:
 
 ### Test automation
 
-Tests for a software project must be exhaustive, that is, they
+Tests for a software project must be exhaustive, that is, they 
 must check every path the program could follow. For this task,
 developers can create a series of tests based on expectations,
 so that they run in each build of the program, checking each
 time that the program is producing the desired output.
 
 Tests are so important there exists an entire methodology for
-development based on them, aptly called
+development based on them, aptly called 
 [Test-driven development](https://en.wikipedia.org/wiki/Test-driven_development).
-In this type of methodologies, devs first write a set of tests
+In this type of methodologies, devs first write a set of tests 
 and then write code, repeatedly checking its functioning and
 closing the cycle when their code passes every test. Automated
 tests allow for this type of methodologies to be fast-paced and
@@ -88,7 +88,7 @@ each language in [the documentation](http://docs.travis-ci.com/user/getting-star
 
 ### Sources
 
-Wikipedia
+Wikipedia 
 [1](https://en.wikipedia.org/wiki/Continuous_integration),
 [2](https://en.wikipedia.org/wiki/Build_automation),
 [3](https://en.wikipedia.org/wiki/Test_automation)
