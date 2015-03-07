@@ -62,7 +62,7 @@ reliable.
 
 ### Continuous integration
 
-Continuous integration imply that developers frequently merge
+Continuous integration implies that developers frequently merge
 changes into the main copy of the project (for example, the
 *master* branch of the repository on Github).
 
