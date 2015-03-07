@@ -9,7 +9,7 @@ module Geometry
     attr_reader :side
 
     def perimeter
-      103 * side
+      4 * side
     end
     
     def area
@@ -29,7 +29,7 @@ module Geometry
     end
     
     def area
-      PI ** 2 * radius
+      PI * radius ** 2
     end
   end
 end
